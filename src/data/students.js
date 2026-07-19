@@ -2,25 +2,19 @@ const students = [
   {
     id: "2621538",
     password: "SHUVO1234",
-
     name: "SHEUM Ahammed",
     photo: "/students/student1.png",
-
     department: "Computer Science and Engineering",
     program: "BSc in CSE",
     session: "Spring 2026",
-
     mobile: "01407116466",
     email: "sheum.2621538@iub.edu.bd",
-
     cgpa: 3.43,
     completedCredits: 36,
     totalCourses: 12,
-    completedCourseAverage: 3.43, // Aligned with the current CGPA
-
+    completedCourseAverage: 3.43,
     status: "Completed",
     academicStatus: "Good Standing",
-
     registeredCourses: [
       {
         code: "CSE201",
@@ -86,7 +80,6 @@ const students = [
         gradePoint: 3.5,
       },
     ],
-
     completedCourses: [
       {
         code: "CSE101",
@@ -161,14 +154,12 @@ const students = [
         gradePoint: 3.41,
       },
     ],
-
     project: {
       title: "APP CREATION",
       status: "App submitted",
       marks: 20,
       totalMarks: 20,
     },
-
     personalDetails: {
       fatherName: "Chopal",
       motherName: "Begum",
@@ -180,29 +171,22 @@ const students = [
       religion: "Islam",
     },
   },
-
   {
     id: "2530589",
     password: "S345",
-
     name: "Sabbir Hossain",
     photo: "/students/student2.png",
-
     department: "Computer Science and Engineering",
     program: "BSc in CSE",
     session: "Spring 2026",
-
     mobile: "01700000000",
     email: "sabbir.2530589@iub.edu.bd",
-
     cgpa: 2.72,
     completedCredits: 51,
     totalCourses: 17,
     completedCourseAverage: 2.72,
-
     status: "Completed",
     academicStatus: "Good Standing",
-
     registeredCourses: [
       {
         code: "CSE301",
@@ -241,7 +225,6 @@ const students = [
         gradePoint: 3.0,
       },
     ],
-
     completedCourses: [
       {
         code: "CSE101",
@@ -346,17 +329,190 @@ const students = [
         gradePoint: 2.75,
       },
     ],
-
     project: {
       title: "University Management System",
       status: "In Progress",
       marks: 17,
       totalMarks: 20,
     },
-
     personalDetails: {
       fatherName: "Md. Rahman",
       motherName: "Ayesha Begum",
+      dateOfBirth: "15 March 2004",
+      gender: "Male",
+      address: "Dhaka, Bangladesh",
+      bloodGroup: "A+",
+      nationality: "Bangladeshi",
+      religion: "Islam",
+    },
+  },
+  {
+    id: "2530486",
+    password: "2530486",
+    name: "Mehraj Salfi",
+    photo: "/students/student3.png",
+    department: "Computer Science and Engineering",
+    program: "BSc in CSE",
+    session: "Spring 2026",
+    mobile: "01700000000",
+    email: "mehraj.2530486@iub.edu.bd",
+    cgpa: 3.64,
+    completedCredits: 51,
+    totalCourses: 17,
+    completedCourseAverage: 2.72,
+    status: "Completed",
+    academicStatus: "Good Standing",
+    registeredCourses: [
+      {
+        code: "CSE301",
+        name: "Algorithms",
+        section: "01",
+        room: "BCS401",
+        time: "MW: 9:00 AM - 10:30 AM",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE302",
+        name: "Operating Systems",
+        section: "01",
+        room: "BCS402",
+        time: "MW: 10:45 AM - 12:15 PM",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE303",
+        name: "Computer Networks",
+        section: "01",
+        room: "BCS403",
+        time: "MW: 1:00 PM - 2:30 PM",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE304",
+        name: "Artificial Intelligence",
+        section: "01",
+        room: "BCS404",
+        time: "MW: 2:45 PM - 4:15 PM",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+    ],
+    completedCourses: [
+      {
+        code: "CSE101",
+        name: "Introduction to Computer Science",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE102",
+        name: "Programming Fundamentals",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE201",
+        name: "Data Structures",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE202",
+        name: "Algorithms",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE203",
+        name: "Database Systems",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE204",
+        name: "Software Engineering",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE205",
+        name: "Computer Architecture",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE206",
+        name: "Operating Systems",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE207",
+        name: "Computer Networks",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE208",
+        name: "Web Engineering",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE209",
+        name: "Software Testing",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE210",
+        name: "Compiler Design",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE211",
+        name: "Theory of Computation",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE212",
+        name: "Numerical Methods",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE213",
+        name: "Machine Learning",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE214",
+        name: "Mobile Application Development",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE215",
+        name: "Cloud Computing",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+    ],
+    project: {
+      title: "University Management System",
+      status: "In Progress",
+      marks: 20,
+      totalMarks: 20,
+    },
+    personalDetails: {
+      fatherName: "Md.YOUNUS",
+      motherName: "JASMIN AKTER",
       dateOfBirth: "15 March 2004",
       gender: "Male",
       address: "Dhaka, Bangladesh",
