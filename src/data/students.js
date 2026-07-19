@@ -1,0 +1,370 @@
+const students = [
+  {
+    id: "2621538",
+    password: "SHUVO1234",
+
+    name: "SHEUM Ahammed",
+    photo: "/students/student1.png",
+
+    department: "Computer Science and Engineering",
+    program: "BSc in CSE",
+    session: "Spring 2026",
+
+    mobile: "01407116466",
+    email: "sheum.2621538@iub.edu.bd",
+
+    cgpa: 3.43,
+    completedCredits: 36,
+    totalCourses: 12,
+    completedCourseAverage: 3.43, // Aligned with the current CGPA
+
+    status: "Completed",
+    academicStatus: "Good Standing",
+
+    registeredCourses: [
+      {
+        code: "CSE201",
+        name: "Data Structures",
+        section: "01",
+        room: "BCS302",
+        time: "ST: 10:00 AM - 11:30 AM",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE205",
+        name: "Discrete Mathematics",
+        section: "01",
+        room: "BCS303",
+        time: "ST: 11:45 AM - 1:15 PM",
+        credit: 3,
+        gradePoint: 3.75,
+      },
+      {
+        code: "CSE207",
+        name: "Digital Logic Design",
+        section: "01",
+        room: "BCS304",
+        time: "ST: 1:30 PM - 3:00 PM",
+        credit: 3,
+        gradePoint: 3.25,
+      },
+      {
+        code: "CSE209",
+        name: "Object Oriented Programming",
+        section: "01",
+        room: "BCS305",
+        time: "ST: 3:15 PM - 4:45 PM",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE210",
+        name: "Computer Organization",
+        section: "01",
+        room: "BCS306",
+        time: "ST: 5:00 PM - 6:30 PM",
+        credit: 3,
+        gradePoint: 3.75,
+      },
+      {
+        code: "CSE212",
+        name: "Database Systems",
+        section: "01",
+        room: "BCS307",
+        time: "ST: 6:45 PM - 8:15 PM",
+        credit: 3,
+        gradePoint: 3.25,
+      },
+      {
+        code: "CSE299",
+        name: "Special Topic in CSE",
+        section: "01",
+        room: "BCS308",
+        time: "ST: 8:30 PM - 10:00 PM",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+    ],
+
+    completedCourses: [
+      {
+        code: "CSE101",
+        name: "Introduction to Computer Science",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE102",
+        name: "Programming Fundamentals",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE103",
+        name: "Fundamentals of Mathematics",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE104",
+        name: "Physics for Engineers",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE105",
+        name: "English for Academic Purposes",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE106",
+        name: "Bangladesh Studies",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE107",
+        name: "Environmental Science",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE108",
+        name: "Ethics in Computing",
+        credit: 3,
+        gradePoint: 3.5,
+      },
+      {
+        code: "CSE109",
+        name: "Computer Graphics",
+        credit: 3,
+        gradePoint: 3.25,
+      },
+      {
+        code: "CSE110",
+        name: "Web Technology",
+        credit: 3,
+        gradePoint: 3.25,
+      },
+      {
+        code: "CSE111",
+        name: "Software Engineering",
+        credit: 3,
+        gradePoint: 3.25,
+      },
+      {
+        code: "CSE112",
+        name: "Numerical Methods",
+        credit: 3,
+        gradePoint: 3.41,
+      },
+    ],
+
+    project: {
+      title: "APP CREATION",
+      status: "App submitted",
+      marks: 20,
+      totalMarks: 20,
+    },
+
+    personalDetails: {
+      fatherName: "Chopal",
+      motherName: "Begum",
+      dateOfBirth: "12 January 2005",
+      gender: "Male",
+      address: "Dhaka, Bangladesh",
+      bloodGroup: "O+",
+      nationality: "Bangladeshi",
+      religion: "Islam",
+    },
+  },
+
+  {
+    id: "2530589",
+    password: "S345",
+
+    name: "Sabbir Hossain",
+    photo: "/students/student2.png",
+
+    department: "Computer Science and Engineering",
+    program: "BSc in CSE",
+    session: "Spring 2026",
+
+    mobile: "01700000000",
+    email: "sabbir.2530589@iub.edu.bd",
+
+    cgpa: 2.72,
+    completedCredits: 51,
+    totalCourses: 17,
+    completedCourseAverage: 2.72,
+
+    status: "Completed",
+    academicStatus: "Good Standing",
+
+    registeredCourses: [
+      {
+        code: "CSE301",
+        name: "Algorithms",
+        section: "01",
+        room: "BCS401",
+        time: "MW: 9:00 AM - 10:30 AM",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE302",
+        name: "Operating Systems",
+        section: "01",
+        room: "BCS402",
+        time: "MW: 10:45 AM - 12:15 PM",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE303",
+        name: "Computer Networks",
+        section: "01",
+        room: "BCS403",
+        time: "MW: 1:00 PM - 2:30 PM",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE304",
+        name: "Artificial Intelligence",
+        section: "01",
+        room: "BCS404",
+        time: "MW: 2:45 PM - 4:15 PM",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+    ],
+
+    completedCourses: [
+      {
+        code: "CSE101",
+        name: "Introduction to Computer Science",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE102",
+        name: "Programming Fundamentals",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE201",
+        name: "Data Structures",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE202",
+        name: "Algorithms",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE203",
+        name: "Database Systems",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE204",
+        name: "Software Engineering",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE205",
+        name: "Computer Architecture",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE206",
+        name: "Operating Systems",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE207",
+        name: "Computer Networks",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE208",
+        name: "Web Engineering",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE209",
+        name: "Software Testing",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE210",
+        name: "Compiler Design",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE211",
+        name: "Theory of Computation",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE212",
+        name: "Numerical Methods",
+        credit: 3,
+        gradePoint: 2.5,
+      },
+      {
+        code: "CSE213",
+        name: "Machine Learning",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+      {
+        code: "CSE214",
+        name: "Mobile Application Development",
+        credit: 3,
+        gradePoint: 3.0,
+      },
+      {
+        code: "CSE215",
+        name: "Cloud Computing",
+        credit: 3,
+        gradePoint: 2.75,
+      },
+    ],
+
+    project: {
+      title: "University Management System",
+      status: "In Progress",
+      marks: 17,
+      totalMarks: 20,
+    },
+
+    personalDetails: {
+      fatherName: "Md. Rahman",
+      motherName: "Ayesha Begum",
+      dateOfBirth: "15 March 2004",
+      gender: "Male",
+      address: "Dhaka, Bangladesh",
+      bloodGroup: "A+",
+      nationality: "Bangladeshi",
+      religion: "Islam",
+    },
+  },
+];
+
+export default students;
